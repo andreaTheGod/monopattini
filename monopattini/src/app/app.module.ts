@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MappaComponent } from './mappa/mappa.component';
 import { AgmCoreModule } from '@agm/core';
+import { InfoWindowsComponent } from './info-windows/info-windows.component';
 
 const appRoutes: Routes = [
   { path: '', component: RegisterComponent },
@@ -23,7 +24,8 @@ const appRoutes: Routes = [
     RegisterComponent,
     NavbarComponent,
     LoginComponent,
-    MappaComponent
+    MappaComponent,
+    InfoWindowsComponent
   ],
   imports: [
     BrowserModule,

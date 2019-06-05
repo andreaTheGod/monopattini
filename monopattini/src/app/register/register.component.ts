@@ -21,7 +21,7 @@ export class RegisterComponent implements OnInit {
     this.name = nome.value;
     this.pwd = pwd.value;
      this.http
-       this.http.post('https://node25.codenvy.io:35000/register',
+       this.http.post('http://node10.codenvy.io:36988/register',
     {
       username : nome.value,
       password : pwd.value
